@@ -98,8 +98,26 @@ nav img {
 } 
 
 .hero-articles {
-    margin: 0 auto;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+    text-align: left;
     width: 80%;
 }
 
+.hero-articles article {
+    width: 17rem;
+}
 
+.hero-articles article h2 {
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.hero-articles article p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    letter-spacing: 0.01rem;
+}
