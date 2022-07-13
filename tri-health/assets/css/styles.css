@@ -5,7 +5,9 @@
     --red-text: #CF7762;
 }
 
+/* ********************** */
 /* utilities */
+/* ********************** */
 .current {
     border-bottom: 1px solid black;
 }
@@ -15,12 +17,16 @@
     width: 28px;
 }
 
+/* ********************* */
 /* general */
+/* ********************* */
 main {
     font-family: var(--font-family);
 }
 
+/* ********************* */
 /* navigation */
+/* ********************* */
 header {
     display: flex;
     justify-content: space-between;
@@ -64,7 +70,9 @@ nav img {
     padding: 0 1rem;
 }
 
+/* ******************* */
 /* hero */
+/* ******************* */
 #hero .hero-image {
     background: no-repeat url('../images/medical-professional.jpg');
     background-position: top;
@@ -121,3 +129,52 @@ nav img {
     line-height: 1.4;
     letter-spacing: 0.01rem;
 }
+
+/* *********************** */
+/* message */
+/* *********************** */
+.message {
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.message h2 {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.message p {
+    color: var(--gray-text);
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+}
+
+.figure-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.figure-container figure img {
+    padding: 2rem 0;
+    width: 15rem;
+    height: 12rem;
+}
+
+.figure-container figure figcaption {
+    color: var(--gray-text);
+    margin-top: -1rem;
+}
+
+.message details {
+    color: var(--red-text);
+    cursor: pointer;
+    margin: 3rem 0;
+}
+
+.message details summary {
+    padding: 1rem;
+}
+
