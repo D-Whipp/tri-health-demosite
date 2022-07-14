@@ -20,6 +20,10 @@
 /* ********************* */
 /* general */
 /* ********************* */
+body {
+    background-color: #eee;
+}
+
 main {
     font-family: var(--font-family);
 }
@@ -74,7 +78,7 @@ nav img {
 /* hero */
 /* ******************* */
 #hero .hero-image {
-    background: no-repeat url('../images/medical-professional.jpg');
+    background: no-repeat url('../images/hero-section/medical-professional.jpg');
     background-position: top;
     background-size: cover;
     height: 50%;
@@ -141,8 +145,10 @@ nav img {
 }
 
 .message h2 {
-    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin: 2rem auto;
+    width: 80%;
 }
 
 .message p {
@@ -177,4 +183,91 @@ nav img {
 .message details summary {
     padding: 1rem;
 }
+/* ***************************** */
+/* activities section */
+/* ***************************** */
+#alt-options-topics {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    width: 80%;
+}
 
+/* bootstrap carousel */
+.carousel-container {
+    height: 25rem;
+    margin-top: 5rem;
+    width: 25rem;
+}
+
+.carousel-item img {
+    border-radius: 5px;
+    height: 20rem;
+    width: 20rem;
+}
+/* carousel images container */
+.carousel-images-container {
+    display: flex;
+    width: 10rem;
+}
+.carousel-images-container img {
+    border-radius: 5px;
+    margin: 1rem 0.53rem;
+    height: 2.75rem;
+    width: 2.75rem;
+}
+
+.carousel-images-container img:first-child {
+    margin-left: 0;
+}
+
+/* activities */
+.activities-container {
+    margin-top: 5rem;
+    width: 40%;
+}
+
+.activities-container h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.activities-container p {
+    color: var(--gray-text);
+    font-size: 0.8rem;
+    line-height: 1.7;
+    margin: 1rem 0;
+}
+
+.activities-container ul {
+    list-style-type: disc;
+}
+
+.activities-container ul li {
+    margin: 1.5rem 0 1rem 1rem;
+}
+
+.activities-container details {
+    margin-top: 2.5rem;
+    color: var(--gray-text);
+}
+
+.activities-container details p {
+    color: var(--red-text);
+}
+
+/* activities modal */
+#alt-options-topics dialog img {
+    height: 25rem;
+}
+
+#alt-options-topics dialog button {
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+}
