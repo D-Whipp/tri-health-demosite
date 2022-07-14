@@ -112,13 +112,31 @@
               </div>
             </div>
             <div class="carousel-images-container">
-              <img class='carousel-image-item' src="./assets/images/alt-options/mental-health.jpg" alt="mental health image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/healthy-food.jpg" alt="healthy food image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/healthy-food-two.jpg" alt="healthy food image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/shake.jpg" alt="healthy drink image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/situp.jpg" alt="workout image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/bike-ride.jpg" alt="bike ride image">
-              <img class='carousel-image-item' src="./assets/images/alt-options/group-workout.jpg" alt="group workout image">
+              <img 
+                class='carousel-image-item' 
+                src="./assets/images/alt-options/mental-health.jpg" 
+                alt="mental health image"
+                data-toggle="modal" 
+                data-target="#mentalHealthModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/healthy-food.jpg" alt="healthy food image"
+                data-toggle="modal" data-target="#healthyFoodOneModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/healthy-food-two.jpg" alt="healthy food image"
+                data-toggle="modal" data-target="#healthyFoodTwoModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/shake.jpg" alt="healthy drink image"
+                data-toggle="modal" data-target="#healthyDrinkModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/situp.jpg" alt="workout image"
+                data-toggle="modal" data-target="#workoutModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/bike-ride.jpg" alt="bike ride image"
+                data-toggle="modal" data-target="#bikeRideModal"
+              >
+              <img class='carousel-image-item' src="./assets/images/alt-options/group-workout.jpg" alt="group workout image"
+                data-toggle="modal" data-target="#groupWorkoutModal"
+              >
             </div>
           </div>
           </div>
@@ -136,19 +154,141 @@
             <summary>Learn More</summary>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nihil est maiores ratione ipsum! Inventore?</p>
           </details>
-        </div>
-        <!-- ***************************************** -->
-        <!-- TEST START -->
-        <!-- ***************************************** -->
-        <!-- <dialog class="modal"> -->
-        <dialog class="dialog-box">
-          <img class="dialog-image" src="./assets/images/alt-options/healthy-food.jpg" alt="">
-          <button class="dialog-btn btn btn-primary" type="button">Close</button>
-        </dialog>
-        <!-- ***************************************** -->
-        <!-- TEST END -->
-        <!-- ***************************************** -->
-
+          <!-- Modals -->
+          <!-- mental health modal -->
+          <div class="modal fade" id="mentalHealthModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Mental Health</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/mental-health.jpg" alt="mental health modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- healthy food one modal -->
+          <div class="modal fade" id="healthyFoodOneModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/healthy-food.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- healthy food two modal -->
+          <div class="modal fade" id="healthyFoodTwoModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/healthy-food-two.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- healthy drink modal -->
+          <div class="modal fade" id="healthyDrinkModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/shake.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- workout modal -->
+          <div class="modal fade" id="workoutModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/situp.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- bike ride modal -->
+          <div class="modal fade" id="bikeRideModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/bike-ride.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- group workout modal -->
+          <div class="modal fade" id="groupWorkoutModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Healthy Food One</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/alt-options/group-workout.jpg" alt="healthy food one modal image">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
       </section>
       <!-- about-us -->
       <section id="about-us">

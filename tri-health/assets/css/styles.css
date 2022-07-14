@@ -271,3 +271,7 @@ nav img {
     margin: 1rem auto;
     padding: 0.5rem 1rem;
 }
+
+.modal-content {
+    width: 33.5rem;
+}
