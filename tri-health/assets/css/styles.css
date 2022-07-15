@@ -275,3 +275,76 @@ nav img {
 .modal-content {
     width: 33.5rem;
 }
+
+/* ***************************** */
+/* about us section */
+/* ***************************** */
+/* info */
+#about-us {
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#about-us .info {
+    margin: 2rem;
+    text-align: right;
+    width: 35rem;
+}
+
+
+#about-us .info h2 {
+    color: var(--red-text);
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+#about-us .info p {
+    margin: 1rem 0;
+}
+
+#about-us .info p:nth-child(odd) {
+    color: var(--red-text);
+}
+
+#about-us .info p:nth-child(even) {
+    color: var(--gray-text);
+}
+
+#about-us .info details summary {
+    color: var(--gray-text);
+}
+
+#about-us .cards {
+    margin: 2rem;
+    width: 35rem;
+}
+
+#about-us .cards img {
+    float: left;
+    background-color: var(--gray-text);
+    border-radius: 50px;
+    margin: 0.8rem;
+    height: 5rem;
+    width: 5rem;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+#about-us .cards .information {
+    margin: 1rem;
+}
+
+#about-us .cards .information h3 {
+    color: var(--red-text);
+    font-size: 1.5rem;
+    margin: 0.75rem;
+}
+
+#about-us .cards .information p {
+    color: var(--gray-text);
+    line-height: 1.4;
+    font-size: 0.8rem;
+}
