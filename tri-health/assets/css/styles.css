@@ -348,3 +348,40 @@ nav img {
     line-height: 1.4;
     font-size: 0.8rem;
 }
+
+/* ***************************** */
+/* patient first section */
+/* ***************************** */
+#patient-first {
+    border-bottom: 1px solid #000;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+/* image */
+#patient-first img {
+    margin: 5rem 3rem;
+    width: 40%;
+    height: 100%;
+}
+
+/* article */
+#patient-first article {
+    margin: 5rem 3rem;
+    width: 40%;
+}
+
+#patient-first article h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+#patient-first article p {
+    color: var(--gray-text);
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
+
+#patient-first article details {
+    margin-top: 4rem;
+}
