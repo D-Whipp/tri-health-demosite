@@ -164,7 +164,9 @@ nav img {
 }
 
 .figure-container figure img {
-    padding: 2rem 0;
+    border: 2px solid var(--red-text);
+    border-radius: 5px;
+    margin: 2rem 0;
     width: 15rem;
     height: 12rem;
 }
@@ -203,6 +205,7 @@ nav img {
 }
 
 .carousel-item img {
+    border: 5px solid var(--red-text);
     border-radius: 5px;
     height: 20rem;
     width: 20rem;
@@ -260,20 +263,20 @@ nav img {
 }
 
 /* activities modal */
-#alt-options-topics dialog img {
-    height: 25rem;
-}
-
-#alt-options-topics dialog button {
-    border-radius: 5px;
-    cursor: pointer;
-    display: block;
-    margin: 1rem auto;
-    padding: 0.5rem 1rem;
-}
-
 .modal-content {
-    width: 33.5rem;
+    width: 34rem;
+    border: 5px solid var(--gray-text);
+    border-radius: 15px;
+}
+
+.modal-body img {
+    border: 3px solid var(--red-text);
+    border-radius: 5px;
+}
+
+.modal-footer button {
+    background-color: var(--red-text);
+    border: none;
 }
 
 /* ***************************** */
@@ -325,6 +328,7 @@ nav img {
 #about-us .cards img {
     float: left;
     background-color: var(--gray-text);
+    border: 5px solid var(--red-text);
     border-radius: 50px;
     margin: 0.8rem;
     height: 5rem;
@@ -360,6 +364,8 @@ nav img {
 }
 /* image */
 #patient-first img {
+    border: 5px solid var(--red-text);
+    border-radius: 5px;
     margin: 5rem 3rem;
     width: 40%;
     height: 100%;
@@ -384,4 +390,42 @@ nav img {
 
 #patient-first article details {
     margin-top: 4rem;
+}
+
+/* ***************************** */
+/* reviews section */
+/* ***************************** */
+#reviews {
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    padding: 5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+#reviews h2 {
+    font-size: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2rem;
+}
+
+.grid-container article {
+    display: flex;
+    margin: 2rem;
+}
+
+.grid-container article img {
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.grid-container article .review-text {
+    font-size: 0.8rem;
+    text-align: left;
+    margin: 1rem;
 }
