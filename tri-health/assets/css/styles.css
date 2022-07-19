@@ -13,8 +13,8 @@
 }
 
 .logo {
-    height: 28px; 
-    width: 28px;
+    height: 1.8rem; 
+    width: 1.8rem;
 }
 
 /* ********************* */
@@ -396,9 +396,9 @@ nav img {
 /* reviews section */
 /* ***************************** */
 #reviews {
-    border-bottom: 1px solid #000;
+    /* border-bottom: 1px solid #000; */
     margin: 0 auto;
-    padding: 5rem 0;
+    padding: 3rem 0;
     text-align: center;
     width: 80%;
 }
@@ -410,14 +410,14 @@ nav img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 2rem;
+    /* margin: 1rem; */
 }
 
 .grid-container article {
     /* border: 1px solid var(--gray-text);
     padding: 1rem 2rem; */
     display: flex;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .grid-container article img {
@@ -441,4 +441,58 @@ nav img {
     display: block;
 }
 
+/* ***************************** */
+/* cta section */
+/* ***************************** */
+#cta {
+    background-image: url('../images/cta-section/flower-in-hands.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+    height: 35%;
+    margin-bottom: 20rem;
+    /* align-items: center; */
+    text-align: center;
+}
 
+#cta h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    /* margin: 1rem auto; */
+}
+
+#cta p {
+    color: #fff;
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}
+
+#cta .article-container {
+    display: flex;
+}
+
+#cta .article-container article {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+    padding: 0.75rem;
+    width: 20rem;
+    height: 100%;
+    opacity: 0.75;
+}
+
+#cta .article-container article img {
+    background-color: var(--gray-text);
+    padding: 0.4rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+#cta .article-container article p {
+    color: #000;
+    font-size: 1rem;
+}
