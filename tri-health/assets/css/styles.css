@@ -400,7 +400,6 @@ nav img {
     margin: 0 auto;
     padding: 5rem 0;
     text-align: center;
-    text-transform: uppercase;
     width: 80%;
 }
 
@@ -415,17 +414,31 @@ nav img {
 }
 
 .grid-container article {
+    /* border: 1px solid var(--gray-text);
+    padding: 1rem 2rem; */
     display: flex;
     margin: 2rem;
 }
 
 .grid-container article img {
-    height: 7rem;
+    border: 3px solid var(--red-text);
     border-radius: 50%;
+    height: 7rem;
 }
 
 .grid-container article .review-text {
-    font-size: 0.8rem;
-    text-align: left;
+    font-size: 0.85rem;
     margin: 1rem;
+    line-height: 1.4;
+    word-spacing: 0.1rem;
+    color: var(--gray-text);
+    text-align: left;
 }
+
+.grid-container article .info-text .name-text {
+    /* text-transform: uppercase; */
+    color: var(--red-text);
+    display: block;
+}
+
+
