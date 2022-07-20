@@ -593,3 +593,31 @@ nav img {
     color: var(--red-text);
     font-weight: 600;
 }
+
+/* ***************************** */
+/* footer section */
+/* ***************************** */
+footer {
+    width: 100%;
+    background-color: #3a3a3a;
+    height: 3rem;
+}
+
+footer .foot-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer .foot-container nav a {
+    color: var(--red-text);
+    margin: 0 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
