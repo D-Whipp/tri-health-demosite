@@ -466,6 +466,8 @@ nav img {
 
 #cta .article-container {
     display: flex;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #cta .article-container article {
@@ -473,7 +475,7 @@ nav img {
     border-radius: 5px;
     margin: 0.5rem auto;
     padding: 0.75rem;
-    width: 20rem;
+    width: 17rem;
     height: 100%;
     opacity: 0.75;
 }
@@ -497,7 +499,8 @@ nav img {
 /* ***************************** */
 #more-info {
     background-color: #000;
-    height: 20rem;
+    /* height: 20rem; */
+    height: 25rem;
     padding: 3rem 0;
 }
 
@@ -509,8 +512,11 @@ nav img {
 
 #more-info .articles-container article {
     margin: 1rem;
-    /* background-color: lightblue; */
     opacity: 0.7;
+}
+
+#more-info .interesting-links {
+    width: 30%;
 }
 
 #more-info .articles-container h2 {
@@ -527,13 +533,63 @@ nav img {
 #more-info .interesting-links p {
     font-size: 0.8rem;
     color: #fff;
-    margin-bottom: 1rem;
+    margin: 1rem 0 3rem 0;
 }
 
-#more-info .interesting-links .interesting-items {
+#more-info .interesting-links a {
+    color: #fff;
+    background-color: var(--red-text);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin: 0 1rem 0 0;
+}
+
+#more-info .interesting-links a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--red-text);
+}
+
+/* latest news */
+#more-info h2 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#more-info .latest-news img {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+#more-info .latest-news .flex-container {
     display: flex;
+    color: #fff;
+    margin: 1.5rem 0;
 }
 
-#more-info .twitter-container {
-    display: flex
+/* business hours */
+#more-info .business-hours {
+    color: #fff;
+    width: 30%;
+}
+
+#more-info .business-hours h2 {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+#more-info .business-hours .hotline p {
+    margin: 1rem 0;
+}
+
+#more-info .business-hours .hours p {
+    margin: 1rem 0;
+}
+
+#more-info .business-hours .hours p .days {
+    color: var(--red-text);
+    font-weight: 600;
 }
