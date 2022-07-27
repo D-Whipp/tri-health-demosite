@@ -2,34 +2,13 @@
 /* utilities */
 /* ********************* */
 
-.logo {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
 /* ********************* */
 /* navigation */
 /* ********************* */
 
-header h1 {
-    font-size: 1.5rem;
-}
-
-header nav {
-    list-style: none;
-}
-
 /* ******************* */
 /* hero */
 /* ******************* */
-#hero .hero-image {
-    height: 40%;
-}
-
-.hero-image h2 {
-    font-size: 4rem;
-    top: 40%;
-}
 
 /* *********************** */
 /* message */
@@ -54,34 +33,11 @@ header nav {
 /* ***************************** */
 /* cta section */
 /* ***************************** */
-#cta .article-container article {
-    margin: 0.5rem auto;
-    margin: 0.5rem 1rem;
-}
 
 /* ***************************** */
 /* more info section */
 /* ***************************** */
 
-/* helpful links */
-#more-info .helpful-links a {
-    display: block;
-    margin: 1rem 0;
-    width: 30%;
-}
-
 /* ***************************** */
 /* footer section */
 /* ***************************** */
-
-footer h2 {
-    color: #fff;
-    font-size: 0.8rem;
-}
-
-footer .foot-container nav a {
-    color: var(--red-text);
-    margin: 0 1rem;
-    font-weight: 600;
-    font-size: 0.9rem;
-}

@@ -42,7 +42,7 @@
 /* general */
 /* ********************* */
 body {
-    background-color: #eee;
+    background-color: #dbdbdb;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -534,28 +534,29 @@ nav img {
     opacity: 0.7;
 }
 
-#more-info .interesting-links {
-    width: 30%;
-}
-
 #more-info .articles-container h2 {
     color: var(--red-text);
 }
 
-#more-info .interesting-links h2 {
+/* helpful links */
+#more-info .helpful-links {
+    width: 30%;
+}
+
+#more-info .helpful-links h2 {
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
 }
 
-#more-info .interesting-links p {
+#more-info .helpful-links p {
     font-size: 0.8rem;
     color: #fff;
     margin: 1rem 0 3rem 0;
 }
 
-#more-info .interesting-links a {
+#more-info .helpful-links a {
     color: #fff;
     background-color: var(--red-text);
     padding: 0.5rem 1rem;
@@ -564,7 +565,7 @@ nav img {
     margin: 0 1rem 0 0;
 }
 
-#more-info .interesting-links a:hover {
+#more-info .helpful-links a:hover {
     text-decoration: none;
     background-color: #fff;
     color: var(--red-text);
@@ -587,6 +588,10 @@ nav img {
     display: flex;
     color: #fff;
     margin: 1.5rem 0;
+}
+
+#more-info .latest-news .flex-container .info-text {
+    line-height: 1.4;
 }
 
 /* business hours */
