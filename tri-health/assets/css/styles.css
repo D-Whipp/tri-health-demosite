@@ -17,6 +17,27 @@
     width: 1.8rem;
 }
 
+.stroke-text {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.letter-space-1 {
+    letter-spacing: 0.1rem;
+}
+
+.reverse-text {
+    color: #CF7762;
+    display: Inline-block;
+    --moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: (-1, 1);
+    transform: scale(-1, 1);
+    margin: 0;
+    padding: 0;
+}
+
 /* ********************* */
 /* general */
 /* ********************* */
@@ -41,19 +62,8 @@ header {
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
-}
-header h1 .reverse-text {
-    color: #CF7762;
-    display: Inline-block;
-    --moz-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -webkit-transform: (-1, 1);
-    transform: scale(-1, 1);
-    margin: 0;
-    padding: 0;
 }
 
 header nav {
@@ -90,17 +100,14 @@ nav img {
 }
 
 .hero-image h2 {
-    border: 3px solid red;
     align-items: center;
     color: var(--red-text);
     font-size: 3rem;
     justify-content: center;
-    /* padding-top: 20%; */
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
-    /* transform: translateY(-50%); */
     transform: translateX(-50%);
 }
 
@@ -110,7 +117,6 @@ nav img {
 }
 
 .hero-image p {
-    border: 3px solid blue;
     color: var(--red-text);
     font-size: 1.7rem;
     letter-spacing: 4;
@@ -410,7 +416,6 @@ nav img {
 /* reviews section */
 /* ***************************** */
 #reviews {
-    /* border-bottom: 1px solid #000; */
     margin: 0 auto;
     padding: 3rem 0;
     text-align: center;
@@ -424,7 +429,6 @@ nav img {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    /* margin: 1rem; */
 }
 
 .grid-container article {
@@ -513,7 +517,6 @@ nav img {
 /* ***************************** */
 #more-info {
     background-color: #000;
-    /* height: 20rem; */
     height: 25rem;
     padding: 3rem 0;
 }
