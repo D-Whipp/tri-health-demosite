@@ -19,7 +19,6 @@ for (let i = 0; i < navItems.length; i++) {
 // more-info section
 // ***************************
 // displays current date
-
 function createDate(input) {
   let today = new Date();
   let dd = String(today.getDate()).padStart(2, '0');
@@ -37,3 +36,26 @@ const dateThreeNode = document.getElementById('date-three');
 createDate(dateOneNode);
 createDate(dateTwoNode);
 createDate(dateThreeNode);
+
+// ***************************
+// mobile-nav section
+// ***************************
+const hamburgerMenuImage = document.getElementById(
+  'hamburger-menu-image'
+);
+
+// function displayMiniMenu() {
+//   const mobileNav = document.getElementById('mobile-nav');
+//   console.log("I'm listening...");
+//   mobileNav.style.display = 'block';
+// }
+
+hamburgerMenuImage.addEventListener('click', () => {
+  const mobileNav = document.getElementById('mobile-nav');
+
+  if (mobileNav.style.display === 'block') {
+    mobileNav.style.display = 'none';
+  } else {
+    mobileNav.style.display = 'block';
+  }
+});

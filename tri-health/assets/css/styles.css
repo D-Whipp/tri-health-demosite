@@ -54,6 +54,38 @@ main {
 /* ********************* */
 /* navigation */
 /* ********************* */
+/* mobile-nav */
+.h-menu img {
+    display: none;
+    width: 1.8rem;
+    height: 1.8rem;
+    position: absolute;
+    right: 6rem;
+    top: 1rem;
+    z-index: 1000;
+}
+
+.mobile-nav {
+    display: none;
+    width: 12rem;
+    height: 13rem;
+    background-color: #000;
+    position: absolute;
+    right: 8rem;
+    top: 1.5rem;
+    z-index: 1000;
+    border-radius: 7px;
+}
+
+.mobile-nav nav a {
+    color: var(--red-text);
+    display: block;
+    font-size: 1.3rem;
+    margin: 1rem auto;
+    width: 7rem;
+}
+
+/* desktop-nav */
 header {
     display: flex;
     justify-content: space-between;

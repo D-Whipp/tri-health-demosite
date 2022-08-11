@@ -5,6 +5,20 @@
 /* ********************* */
 /* navigation */
 /* ********************* */
+header {
+    display: none;
+}
+
+.h-menu img {
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin-right: -5rem;
+}
+
 
 /* ******************* */
 /* hero */

@@ -18,20 +18,31 @@
     <!-- default/desktop styles -->
     <link rel="stylesheet" href="./assets/css/styles.css">
     <!-- tablet styles -->
-    <link rel="stylesheet" media="screen and (min-device-width: 997px) and (max-width: 1086px)" href="./assets/css/responsive-css/tablet-styles.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 998px) and (max-width: 1086px)" href="./assets/css/responsive-css/tablet-styles.css">
     <!-- mini tablet styles -->
-    <link rel="stylesheet" media="screen and (min-device-width: 400px) and (max-width: 996)" href="./assets/css/responsive-css/mini_tablet-styles.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 400px) and (max-width: 997px)" href="./assets/css/responsive-css/mini_tablet-styles.css">
     <!-- js script set to defer -->
     <script defer src="./assets/js/script.js"></script>
-    <!-- <script defer>
-      const dateNode = (document.getElementById('date-here').innerHTML =
-  "I'm listening...");
-    </script> -->
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/images/favicon/favicon-16x16.png" type="image/x-icon">
   <body>
     <main>
       <!-- navigation -->
+      <!-- mobile-nav -->
+      <div id="hamburger-menu-image" class="hamburger-menu-btn h-menu">
+        <img src="./assets/icons/nav-icons/orange-hamburger-menu.png" alt="hamburger menu button">
+      </div>
+      <div id="mobile-nav" class="mobile-nav">
+        <nav>
+          <a class="nav-item current" href="#hero">Home</a>
+          <a class="nav-item" href="#message">Message</a>
+          <a class="nav-item" href="#alt-options-topics">Activities</a>
+          <a class="nav-item" href="#about-us">About Us</a>
+          <a class="nav-item" href="#patient-first">Patient First</a>
+        </nav>
+      </div>
+
+      <!-- desktop-nav -->
       <header id="header">
         <h1>
           <span class="reverse-text stroke-text letter-space-1">-TRI</span> health
