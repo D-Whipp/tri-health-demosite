@@ -2,14 +2,20 @@
 /* utilities */
 /* ********************* */
 
-/* ********************* */
-/* navigation */
-/* ********************* */
-header {
+/* general */
+body {
+    width: 100%;
+    /* overflow: hidden; */
+  }
+  
+  /* ********************* */
+  /* navigation */
+  /* ********************* */
+  header {
     display: none;
-}
-
-.h-menu img {
+  }
+  
+  .h-menu img {
     background-color: black;
     border-radius: 5px;
     display: block;
@@ -17,46 +23,114 @@ header {
     width: 4rem;
     height: 4rem;
     margin-right: -5rem;
-    position: fixed;
-}
-
-.mobile-nav {
-    position: fixed;
-}
-
-
-/* ******************* */
-/* hero */
-/* ******************* */
-
-/* *********************** */
-/* message */
-/* *********************** */
-
-/* ***************************** */
-/* activities section */
-/* ***************************** */
-
-/* ***************************** */
-/* about us section */
-/* ***************************** */
-
-/* ***************************** */
-/* patient first section */
-/* ***************************** */
-
-/* ***************************** */
-/* reviews section */
-/* ***************************** */
-
-/* ***************************** */
-/* cta section */
-/* ***************************** */
-
-/* ***************************** */
-/* more info section */
-/* ***************************** */
-
-/* ***************************** */
-/* footer section */
-/* ***************************** */
+  }
+  
+  /* ******************* */
+  /* hero */
+  /* ******************* */
+  .hero-image h2 {
+    font-size: 2.5rem;
+    top: 25%;
+  }
+  
+  .hero-image h2 img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  .hero-image p {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  
+  /* hero articles */
+  .hero-articles article {
+    width: 13rem;
+  }
+  
+  /* *********************** */
+  /* message */
+  /* *********************** */
+  
+  /* ***************************** */
+  /* activities section */
+  /* ***************************** */
+  
+  /* activities modal */
+  .modal-content {
+    width: 30rem;
+  }
+  
+  .modal-body img {
+    height: 20rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* ***************************** */
+  /* about us section */
+  /* ***************************** */
+  
+  /* cards */
+  #about-us .cards .information h3 {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* ***************************** */
+  /* patient first section */
+  /* ***************************** */
+  #patient-first img {
+    margin: 3rem;
+  }
+  
+  /* article */
+  #patient-first article {
+    margin: 3rem;
+  }
+  
+  #patient-first article h2 {
+    font-size: 1.3rem;
+  }
+  
+  #patient-first article details {
+    margin-top: 1rem;
+  }
+  
+  /* ***************************** */
+  /* reviews section */
+  /* ***************************** */
+  
+  /* ***************************** */
+  /* cta section */
+  /* ***************************** */
+  #cta .article-container article {
+    width: 13rem;
+  }
+  
+  /* ***************************** */
+  /* more info section */
+  /* ***************************** */
+  
+  /* helpful links */
+  #more-info .helpful-links {
+    width: 30%;
+  }
+  
+  #more-info .helpful-links a {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    width: 5rem;
+  }
+  
+  /* ***************************** */
+  /* footer section */
+  /* ***************************** */
+  footer h2 {
+    font-size: 1rem;
+  }
+  
+  footer .foot-container nav a {
+    font-size: 0.8rem;
+  }
