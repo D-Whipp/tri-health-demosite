@@ -134,8 +134,9 @@ body {
   /* ***************************** */
   footer h2 {
     font-size: 1rem;
+    margin: 0 auto;
   }
   
-  footer .foot-container nav a {
-    font-size: 0.8rem;
+  footer .foot-container nav {
+    display: none;
   }
