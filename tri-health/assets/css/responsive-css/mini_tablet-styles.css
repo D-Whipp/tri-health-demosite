@@ -23,6 +23,11 @@ body {
     width: 4rem;
     height: 4rem;
     margin-right: -5rem;
+    position: fixed;
+  }
+
+  .mobile-nav {
+    position: fixed;
   }
   
   /* ******************* */
