@@ -42,7 +42,7 @@
 /* general */
 /* ********************* */
 body {
-    background-color: #dbdbdb;
+    background-color: #fff;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -161,6 +161,7 @@ nav img {
     text-align: center;
 } 
 
+/* hero articles */
 .hero-articles {
     border-bottom: 1px solid #000;
     display: flex;
@@ -372,6 +373,7 @@ nav img {
     color: var(--gray-text);
 }
 
+/* cards */
 #about-us .cards {
     margin: 2rem;
     width: 35rem;

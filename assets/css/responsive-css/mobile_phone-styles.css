@@ -1,0 +1,213 @@
+/* ********************* */
+/* utilities */
+/* ********************* */
+
+/* ********************* */
+/* general */
+/* ********************* */
+body {
+    min-width: 100%;
+}
+
+/* ********************* */
+/* navigation */
+/* ********************* */
+header {
+    display: none;
+  }
+  
+  .h-menu img {
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin-right: -5rem;
+    position: fixed;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+  }
+  
+
+/* ******************* */
+/* hero */
+/* ******************* */
+#hero {
+    width: 50rem;
+}
+#hero .hero-image {
+    width: 50rem;
+    /* position: absolute;
+    width: 100%; */
+}
+
+.hero-image h2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+    top: 30%;
+}
+
+.hero-image h2 img {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: -90%;
+    left: 45%;
+    background-color: black;
+    padding: 0.2rem;
+    border-radius: 15px;
+    /* width: 100%; */
+}
+
+.hero-image p {
+    font-size: 2rem;
+    top: 40%;
+}
+
+/* hero articles */
+.hero-articles {
+    display: block;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.hero-articles article {
+    margin: 2rem auto;
+    /* background-color: red; */
+}
+
+/* *********************** */
+/* message */
+/* *********************** */
+.message {
+    width: 50rem;
+}
+
+.figure-container {
+    margin: 0 1rem;
+}
+
+/* ***************************** */
+/* activities section */
+/* ***************************** */
+#alt-options-topics {
+    display: block;
+    width: 50rem;
+}
+
+.carousel-container {
+    margin: 3rem auto;
+}
+
+/* activities */
+.activities-container {
+    margin: 0 auto;
+}
+
+/* ***************************** */
+/* about us section */
+/* ***************************** */
+#about-us {
+    display: block;
+    /* width: 50rem; */
+}
+
+/* cards */
+.cards article {
+    margin: 3rem auto;
+}
+
+/* ***************************** */
+/* patient first section */
+/* ***************************** */
+#patient-first {
+    display: block;
+    width: 50rem;
+    width: 100%;
+}
+
+/* image */
+#patient-first img {
+    width: 33rem;
+    margin: 3rem 8rem;
+}
+
+/* article */
+#patient-first article {
+    width: 40rem;
+    margin: 3rem 5rem;
+}
+
+/* ***************************** */
+/* reviews section */
+/* ***************************** */
+#reviews {
+    width: 50rem;
+}
+
+/* reviews grid */
+.grid-container {
+    display: block;
+    width: 40rem;
+    margin: 3rem auto;
+}
+
+/* ***************************** */
+/* cta section */
+/* ***************************** */
+#cta {
+    width: 50rem;
+}
+
+#cta .article-container {
+    display: block;
+}
+
+#cta .article-container article {
+    height: 17rem;
+    /* height: 100%; */
+}
+
+/* ***************************** */
+/* more info section */
+/* ***************************** */
+#more-info {
+    width: 50rem;
+    height: 50rem;
+    text-align: center;
+}
+
+#more-info .articles-container {
+    display: block;
+    /* text-align: center;
+    align-items: center; */
+}
+
+#more-info .articles-container article {
+    margin: 1rem auto;
+}
+
+/* latest news items */
+.latest-news .flex-container {
+    margin: 2rem auto;
+}
+
+/* ***************************** */
+/* footer section */
+/* ***************************** */
+footer {
+    width: 50rem;
+}
+
+footer h2 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  
+  footer .foot-container nav {
+    display: none;
+  }
