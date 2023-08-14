@@ -10,10 +10,29 @@
 /* ********************* */
 /* navigation */
 /* ********************* */
+header {
+    display: none;
+}
+
+.h-menu img {
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin-right: -5rem;
+    position: fixed;
+  }
+
+  .mobile-nav {
+    position: fixed;
+  }
 
 header h1 {
     font-size: 1.5rem;
 }
+
 
 header nav {
     list-style: none;
@@ -31,25 +50,172 @@ header nav {
     top: 40%;
 }
 
+/* ***** hero-articles ***** */
+.hero-articles {
+    width: 90%;
+}
+
+.hero-articles article {
+    margin: 1rem 1rem;
+}
+
 /* *********************** */
 /* message */
 /* *********************** */
+.message h2 {
+    font-size: 2rem;
+}
+
+.message p {
+    font-size: 1.1rem;
+}
+
+.message details summary {
+    font-size: 1.5rem;
+}
+
+.message details p {
+    font-size: 1.5rem;
+}
+
+.message .figure-container {
+    margin-left: -2.7rem;
+}
+
+.message .figure-container figure {
+    margin: 0rem 0.3rem;
+}
+
+.message .figure-container figure figcaption {
+    font-size: 1.4rem;
+}
 
 /* ***************************** */
 /* activities section */
 /* ***************************** */
+#alt-options-topics {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#alt-options-topics .carousel-container {
+    margin: 1rem auto;
+}
+
+.activities-container {
+    margin: 0rem auto;
+}
+
+.activities-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.activities-container p {
+    font-size: 1.1rem;
+}
+
+.activities-container ul li {
+    font-size: 1.7rem;
+}
 
 /* ***************************** */
 /* about us section */
 /* ***************************** */
+#about-us {
+    display: block;
+    width: 90%;
+}
+
+#about-us .info h2 {
+    font-size: 3rem;
+}
+
+#about-us .info p {
+    font-size: 1.5rem;
+}
+
+#about-us .info details p {
+    font-size: 1.5rem;
+}
+
+#about-us .cards {
+    width: 40rem;
+}
+
+#about-us .cards article {
+    margin: 2rem;
+}
+
+#about-us .cards article img {
+    height: 7rem;
+    width: 6rem;
+}
+
+#about-us .cards article .information h3 {
+    font-size: 2rem;
+}
+
+#about-us .cards article .information p {
+    font-size: 1.1rem;
+}
 
 /* ***************************** */
 /* patient first section */
 /* ***************************** */
+#patient-first {
+    display: block;
+    text-align: center;
+}
+
+#patient-first img {
+    height: 30rem;
+    width: 30rem;
+    margin: 5rem auto 2rem auto;
+}
+
+#patient-first article {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+#patient-first article h2 {
+    font-size: 3rem;
+}
+
+#patient-first article p {
+    font-size: 1.4rem;
+}
+
+#patient-first article details summary {
+    font-size: 1.3rem;
+}
+
 
 /* ***************************** */
 /* reviews section */
 /* ***************************** */
+#reviews h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#reviews .grid-container {
+    display: block;
+}
+
+#reviews .grid-container article {
+    margin: 2rem;
+}
+
+#reviews .grid-container article img {
+    height: 10rem;
+}
+
+#reviews .grid-container article .review-text {
+    font-size: 1.1rem;
+}
 
 /* ***************************** */
 /* cta section */
@@ -62,12 +228,37 @@ header nav {
 /* ***************************** */
 /* more info section */
 /* ***************************** */
+#more-info {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#more-info .articles-container {
+    display: block;
+    width: 95%;
+    margin: 0rem auto;
+}
+
+#more-info .articles-container article {
+    margin: 0rem auto;
+    width: 90%;
+}
+
+/* latest news */
+#more-info .latest-news {
+    font-size: 1rem;
+}
+
+#more-info .latest-news .flex-container {
+    display: block;
+}
 
 /* helpful links */
 #more-info .helpful-links a {
     display: block;
-    margin: 1rem 0;
-    width: 30%;
+    margin: 1rem auto;
+    width: 100%;
 }
 
 /* ***************************** */

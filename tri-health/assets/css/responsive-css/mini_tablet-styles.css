@@ -5,7 +5,6 @@
 /* general */
 body {
     width: 100%;
-    /* overflow: hidden; */
   }
   
   /* ********************* */
@@ -13,6 +12,10 @@ body {
   /* ********************* */
   header {
     display: none;
+  }
+
+  header h1 {
+    font-size: 50px;
   }
   
   .h-menu img {
