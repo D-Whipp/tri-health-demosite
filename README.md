@@ -2,7 +2,7 @@
 
 ## Front End Web App
 
-![app image](./assets/images/readme-image/Tri-Health.png)
+![app image](./assets/images/app-screenshot/Tri-Health.png)
 
 ## Description
 
