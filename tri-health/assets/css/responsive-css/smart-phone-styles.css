@@ -1,0 +1,344 @@
+/* ********************* */
+/* utilities */
+/* ********************* */
+
+/* general */
+body {
+    width: 100%;
+  }
+  
+  /* ********************* */
+  /* navigation */
+  /* ********************* */
+  header {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+  
+  .h-menu img {
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    margin-right: -5rem;
+    position: fixed;
+  }
+
+  .mobile-nav {
+    position: fixed;
+  }
+  
+  /* ******************* */
+  /* hero */
+  /* ******************* */
+  .hero-image h2 {
+    font-size: 2rem;
+    top: 25%;
+  }
+  
+  .hero-image h2 img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
+  .hero-image p {
+    font-size: 1rem;
+    top: 35%;
+  }
+  
+  /* hero articles */
+  .hero-articles {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-articles article {
+    width: 90%;
+    margin: 0rem auto;
+  }
+
+  .hero-articles article h2 {
+    font-size: 2rem;
+  }
+
+  .hero-articles article p {
+    font-size: 1.1rem;
+  }
+  
+  /* *********************** */
+  /* message */
+  /* *********************** */
+  .message {
+    width: 100%;
+  }
+
+  .message h2 {
+    font-size: 2rem;
+  }
+
+  .message p {
+    font-size: 1.1rem;
+  }
+
+  .figure-container {
+    display: block;
+  }
+
+  .figure-container figure figcaption {
+    font-size: 1.1rem;
+  }
+
+  .message details summary {
+    font-size: 1.1rem;
+  }
+
+  .message details p {
+    font-size: 1.1rem;
+  }
+
+  /* ***************************** */
+  /* activities section */
+  /* ***************************** */
+  #alt-options-topics {
+    display: block;
+  }
+
+  #alt-options-topics .carousel-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  #alt-options-topics .carousel-images-container {
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+}
+
+  .activities-container {
+    width: 80%;
+    margin: 6rem auto;
+  }
+
+  .activities-container h2 {
+    font-size: 2rem;
+
+  }
+
+  .activities-container p {
+    font-size: 1.1rem;
+  }
+
+  .activities-container ul li {
+    font-size: 1.1rem;
+  }
+
+  /* activities modal */
+  .modal-content {
+    width: 55%;
+  }
+  
+  .modal-body img {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  /* ***************************** */
+  /* about us section */
+  /* ***************************** */
+  #about-us {
+    display: block;
+    width: 90%;
+}
+
+#about-us .info {
+    width: 85%;
+}
+
+#about-us .info h2 {
+    font-size: 3rem;
+}
+
+#about-us .info p {
+    font-size: 1.5rem;
+}
+
+#about-us .info details p {
+    font-size: 1.5rem;
+}
+
+#about-us .cards {
+    width: 90%;
+}
+
+#about-us .cards img {
+    display: block;
+}
+
+#about-us .cards article {
+    margin: 2rem;
+}
+
+#about-us .cards article img {
+    display: block;
+    height: 7rem;
+    width: 6rem;
+}
+
+#about-us .cards article .information {
+    display: block;
+}
+
+#about-us .cards article .information h3 {
+    font-size: 2rem;
+    clear: both;
+    display: block;
+}
+
+#about-us .cards article .information p {
+    display: block;
+    font-size: 1.1rem;
+}
+  /* ***************************** */
+  /* patient first section */
+  /* ***************************** */
+  #patient-first {
+    display: block;
+    text-align: center;
+}
+
+#patient-first img {
+    height: 20rem;
+    width: 100%;
+    margin: 5rem auto 2rem auto;
+}
+
+#patient-first article {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+#patient-first article h2 {
+    font-size: 3rem;
+}
+
+#patient-first article p {
+    font-size: 1.4rem;
+}
+
+#patient-first article details summary {
+    font-size: 1.3rem;
+}
+
+  
+  /* ***************************** */
+  /* reviews section */
+  /* ***************************** */
+  #reviews h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#reviews .grid-container {
+    display: block;
+}
+
+#reviews .grid-container article {
+    margin: 2rem;
+    display: block;
+}
+
+#reviews .grid-container article img {
+    display: block;
+    height: 10rem;
+    clear: both;
+}
+
+#reviews .grid-container article .info-text {
+    clear: both;
+    display: block;
+}
+
+#reviews .grid-container article .review-text {
+    font-size: 1.1rem;
+    display: block;
+    clear: both;
+}
+
+
+  /* ***************************** */
+  /* cta section */
+  /* ***************************** */
+  #cta {
+    width: 100%;
+  }
+
+  #cta p {
+    font-size: 2rem;
+  }
+
+  #cta .article-container {
+    width: 100%;
+    display: block;
+  }
+
+  #cta .article-container article {
+    max-height: 30%;
+    width: 90%;
+  }
+  
+  /* ***************************** */
+  /* more info section */
+  /* ***************************** */
+  
+  #more-info {
+    height: 100%;
+    height: 58rem;
+    width: 100%;
+    text-align: center;
+}
+
+#more-info .articles-container {
+    display: block;
+    width: 95%;
+    margin: 0rem auto;
+}
+
+#more-info .articles-container article {
+    margin: 0rem auto;
+    width: 90%;
+}
+
+/* latest news */
+#more-info .latest-news {
+    font-size: 1rem;
+}
+
+#more-info .latest-news .flex-container {
+    display: block;
+}
+
+/* helpful links */
+#more-info .helpful-links a {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+}
+  
+  /* ***************************** */
+  /* footer section */
+  /* ***************************** */
+  footer h2 {
+    font-size: 1rem;
+    margin: 0 auto;
+  }
+  
+  footer .foot-container nav {
+    display: none;
+  }
