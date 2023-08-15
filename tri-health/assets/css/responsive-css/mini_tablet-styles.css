@@ -37,7 +37,7 @@ body {
   /* hero */
   /* ******************* */
   .hero-image h2 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     top: 25%;
   }
   
@@ -47,23 +47,92 @@ body {
   }
   
   .hero-image p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     top: 35%;
   }
   
   /* hero articles */
+  .hero-articles {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
   .hero-articles article {
-    width: 13rem;
+    width: 90%;
+    margin: 0rem auto;
+  }
+
+  .hero-articles article h2 {
+    font-size: 2rem;
+  }
+
+  .hero-articles article p {
+    font-size: 1.1rem;
   }
   
   /* *********************** */
   /* message */
   /* *********************** */
-  
+  .message {
+    width: 100%;
+  }
+
+  .message h2 {
+    font-size: 2rem;
+  }
+
+  .message p {
+    font-size: 1.1rem;
+  }
+
+  .figure-container figure figcaption {
+    font-size: 1.1rem;
+  }
+
+  .message details summary {
+    font-size: 1.1rem;
+  }
+
+  .message details p {
+    font-size: 1.1rem;
+  }
+
   /* ***************************** */
   /* activities section */
   /* ***************************** */
-  
+  #alt-options-topics {
+    display: block;
+  }
+
+  #alt-options-topics .carousel-container {
+    width: 90%;
+    margin: 2rem auto;
+  }
+
+  #alt-options-topics .carousel-images-container {
+    margin: 0rem auto;
+    width: 80%;
+  }
+
+  .activities-container {
+    width: 80%;
+    margin: 0rem auto;
+  }
+
+  .activities-container h2 {
+    font-size: 2rem;
+
+  }
+
+  .activities-container p {
+    font-size: 1.1rem;
+  }
+
+  .activities-container ul li {
+    font-size: 1.1rem;
+  }
+
   /* activities modal */
   .modal-content {
     width: 30rem;
@@ -78,59 +147,157 @@ body {
   /* ***************************** */
   /* about us section */
   /* ***************************** */
-  
-  /* cards */
-  #about-us .cards .information h3 {
-    font-size: 1rem;
-    margin: 0;
-  }
-  
+  #about-us {
+    display: block;
+    width: 90%;
+}
+
+#about-us .info h2 {
+    font-size: 3rem;
+}
+
+#about-us .info p {
+    font-size: 1.5rem;
+}
+
+#about-us .info details p {
+    font-size: 1.5rem;
+}
+
+#about-us .cards {
+    width: 40rem;
+}
+
+#about-us .cards article {
+    margin: 2rem;
+}
+
+#about-us .cards article img {
+    height: 7rem;
+    width: 6rem;
+}
+
+#about-us .cards article .information h3 {
+    font-size: 2rem;
+}
+
+#about-us .cards article .information p {
+    font-size: 1.1rem;
+}
   /* ***************************** */
   /* patient first section */
   /* ***************************** */
-  #patient-first img {
-    margin: 3rem;
-  }
-  
-  /* article */
-  #patient-first article {
-    margin: 3rem;
-  }
-  
-  #patient-first article h2 {
+  #patient-first {
+    display: block;
+    text-align: center;
+}
+
+#patient-first img {
+    height: 30rem;
+    width: 30rem;
+    margin: 5rem auto 2rem auto;
+}
+
+#patient-first article {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+#patient-first article h2 {
+    font-size: 3rem;
+}
+
+#patient-first article p {
+    font-size: 1.4rem;
+}
+
+#patient-first article details summary {
     font-size: 1.3rem;
-  }
-  
-  #patient-first article details {
-    margin-top: 1rem;
-  }
+}
+
   
   /* ***************************** */
   /* reviews section */
   /* ***************************** */
-  
+  #reviews h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#reviews .grid-container {
+    display: block;
+}
+
+#reviews .grid-container article {
+    margin: 2rem;
+}
+
+#reviews .grid-container article img {
+    height: 10rem;
+}
+
+#reviews .grid-container article .review-text {
+    font-size: 1.1rem;
+}
+
+
   /* ***************************** */
   /* cta section */
   /* ***************************** */
+  #cta {
+    width: 100%;
+  }
+
+  #cta p {
+    font-size: 2rem;
+  }
+
+  #cta .article-container {
+    width: 100%;
+    display: block;
+  }
+
   #cta .article-container article {
-    width: 13rem;
+    max-height: 21%;
+    width: 90%;
   }
   
   /* ***************************** */
   /* more info section */
   /* ***************************** */
   
-  /* helpful links */
-  #more-info .helpful-links {
-    width: 30%;
-  }
-  
-  #more-info .helpful-links a {
+  #more-info {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#more-info .articles-container {
     display: block;
-    margin: 0.5rem 0;
-    padding: 0.5rem 1rem;
-    width: 5rem;
-  }
+    width: 95%;
+    margin: 0rem auto;
+}
+
+#more-info .articles-container article {
+    margin: 0rem auto;
+    width: 90%;
+}
+
+/* latest news */
+#more-info .latest-news {
+    font-size: 1rem;
+}
+
+#more-info .latest-news .flex-container {
+    display: block;
+}
+
+/* helpful links */
+#more-info .helpful-links a {
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+}
   
   /* ***************************** */
   /* footer section */
