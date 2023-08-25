@@ -5,6 +5,8 @@
     --red-text: #CF7762;
 }
 
+html {scroll-behavior: smooth;}
+
 /* ********************** */
 /* utilities */
 /* ********************** */
