@@ -15,6 +15,7 @@ Welcome to Tri-Health! This is a website for a fictional healthcare company I cr
     -   [Description](#description)
     -   [Table of Contents](#table-of-contents)
     -   [Purpose](#purpose)
+    -   [Technologies Used](#technologies-used)
     -   [Usage](#usage)
     -   [License](#license)
     -   [About](#about)
@@ -25,6 +26,12 @@ Welcome to Tri-Health! This is a website for a fictional healthcare company I cr
 A company I applied to handed me homework to complete and give back. It was a PSD file which they wanted me to turn into an HTML/CSS website. Some of the criteria for the website included "Modals", "Carousel", and "Responsive Design". <br />
 <br />
 After I returned the homework I was left with the desire to add the assignment to my resume. So I searched online for some templates and created my own version: Tri-Health!
+
+## Technologies Used
+
+- HTML
+- CSS
+- Bootstrap
 
 ## Usage
 
